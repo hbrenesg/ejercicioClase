@@ -1,0 +1,34 @@
+.contenedorTitulosPagina {
+    border: 1px solid #6c5ce7;
+    padding: 20px 30px;
+}
+
+.contenedorSubtitulosPagina {
+    border: 1px solid #d63031;
+}
+
+.contenedorNoticia {
+    background-color: #636e72;
+    padding: 30px 15px;
+}
+
+.contenedorNoticia .imgNoticia img {
+    height: 500px;
+    width: 100%;
+}
+
+.contenedorNoticia .imgTituloNoticia p {
+    color: #ffff;
+    font-weight: 900;
+}
+
+.contenedorEnlaces {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.contenedorEjemploBold {
+    padding: 30px 20px 50px 80px;
+    font-size: 16px;
+    font-weight: bold;
+}
