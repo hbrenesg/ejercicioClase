@@ -1,0 +1,21 @@
+.dadContainer {
+    background-color: #2f3542;
+    padding: 20px 0 20px 0;
+    display: flex;
+    /*Se usa wrap para que se salte a la siguiente línea cuando se cumple con el mínimo del div*/
+    flex-wrap: wrap;
+    /*Dirección del div*/
+    /*flex-direction: column;*/
+
+}
+
+.childContainer {
+    background-color: #ffff;
+    color: #2f3542;
+    border-radius: 15px;
+    /*Con el siguiente atributo, acomoda los div del mismo tamaño sin importar el ancho del navegador */
+    flex-grow: 1;
+    /*Mínimo de un contenedor para que no se vea feo*/
+    min-width: 120px;
+    text-align: center;
+}
