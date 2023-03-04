@@ -1,0 +1,37 @@
+.contenedor-flexible {
+    display: flex;
+
+    /*justify-content se usa para el posicionamiento del eje horizontal*/
+    /*Coloca en el eje horizontal al inicio el contenido, o sea, a la izquierda*/
+    justify-content: flex-start;
+    /*Coloca en el eje horizontal al final el contenido, o sea, a la derecha*/
+    justify-content: flex-end;
+    /*Coloca el espacio en las zonas laterales y pone el contenido solo en el centro*/
+    justify-content: center;
+    /*Coloca el espacio restante en el medio de los contenedores*/
+    justify-content: space-between;
+    /*Va a colocar el espacio restante de los contenidos alrededor de todos los contenedores*/
+    justify-content: space-around;
+
+    /*align-item se usa para el posicionamiento del eje vertical*/
+    /*Coloca en el eje vertical lo más alto del div, o sea, empieza de arriba para abajo*/
+    align-items: flex-start;
+    /*Coloca en el eje vertical lo más abajo del div, o sea, empieza de abajo para arriba*/
+    align-items: flex-end;
+    /*Coloca de manera centrada cada contenido, la altura depende de lo que contenga cada div*/
+    align-items: center;
+    /*Crea los contenedores basado en el más alto que exista, todos con esa altura*/
+    align-items: stretch;
+
+    /*Por defecto son justify-content: flex-start; y align-items: stretch;*/
+}
+
+.contenedor-flexible .item{
+    background-color: blue;
+    color: #ffff;
+    /*Gracias al max-width podemos usar justify y align porque determina el ancho del div*/
+    max-width: 100px;
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+}
